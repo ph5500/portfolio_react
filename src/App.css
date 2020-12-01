@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  /* background-image: url('./misty_mountains.jpg');*/
+  /* background-color: #89d4cf;
+  background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
+  background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#nav-wrap {
+  background-color: black;
+}
+
+.mobile-btn {
+  color: black;
+}
+
+.smoothscroll {
+  color: white;
+  font-family: Helvetica Neue;
+  font-size: 15px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 23em;
+  padding: 1em;
+}
+
+.banner-text {
+  color: white;
+}
+/* .camp_nou {
+  height: 50px;
+  width: 50px;
+} */
+
+img {
+  border-radius: 100px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.about_me {
+  width: 50%;
+  text-align: center;
+  margin-left: 25em;
+  font-family: Georgia;
+  font-size: 15px;
+}
+
+.row_education {
+  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+  color: black;
+}
+
+.month {
+  padding-right: 0.5em;
+}
+
+.workImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.project_title {
+  font-size: 20px;
+}
+
+.project_description {
+  font-size: 14px;
+}
+
+.footer_icons {
+  padding-bottom: 1%;
+  display: flex;
+  align-items: left;
+}
+
+/* p {
+  width: 70%;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
