@@ -1,3 +1,7 @@
+* {
+  color: white;
+}
+
 .App {
   text-align: center;
   /* background-image: url('./misty_mountains.jpg');*/
@@ -25,6 +29,12 @@
 
 #nav-wrap {
   background-color: black;
+}
+
+.my_description {
+  width: 40%;
+  margin-left: 30em;
+  font-weight: 900;
 }
 
 .mobile-btn {
@@ -69,8 +79,7 @@ img {
 }
 
 .row_education {
-  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
-  color: black;
+  color: white;
 }
 
 .month {
@@ -83,11 +92,17 @@ img {
   border-radius: 100px;
 }
 
+.check_out {
+  color: black;
+}
+
 .project_title {
   font-size: 20px;
+  color: purple !important;
 }
 
 .project_description {
+  color: purple !important;
   font-size: 14px;
 }
 

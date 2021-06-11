@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import neel_work from '../neel_work.jpg'
+import React, { Component } from "react";
+import neel_work from "../neel_work.jpg";
 // import styled from 'styled-components'
 
 // const Workimg = styled.img`
@@ -8,44 +8,47 @@ import neel_work from '../neel_work.jpg'
 // `
 
 export default class Portfolio extends Component {
-  render () {
-    let resumeData = this.props.resumeData
+  render() {
+    let resumeData = this.props.resumeData;
 
     return (
-      <section id='portfolio'>
-        <div className='row'>
-          <div className='twelve columns collapsed'>
-            <h1>Check Out Some of My Work</h1>
+      <section id="portfolio">
+        <div className="row">
+          <div className="twelve columns collapsed">
             <div
-              id='portfolio-wrapper'
-              className='bgrid-quarters s-bgrid-thirds cf'
+              id="portfolio-wrapper"
+              className="bgrid-quarters s-bgrid-thirds cf"
               alt="it's an alt"
             >
               {resumeData.portfolio &&
-                resumeData.portfolio.map(item => {
+                resumeData.portfolio.map((item) => {
                   return (
-                    <div className='columns portfolio-item'>
-                      <div className='item-wrap'>
-                        <a href='#modal-01'>
+                    <div className="columns portfolio-item">
+                      <div className="item-wrap">
+                        <a href="#modal-01">
                           <img
-                            className='workImg'
+                            className="workImg"
                             src={neel_work}
                             // src={`${item.imgurl}`}
                             // className='item-img'
-                            alt='this is another alt'
+                            alt="this is another alt"
                           />
 
-                          <div className='overlay'>
-                            <div className='portfolio-item-meta'>
+                          <div className="overlay">
+                            <div className="portfolio-item-meta">
+                              <h1 className="check_out">
+                                Check Out Some of My Work
+                              </h1>
+
                               <h5>
-                                <a className='project_title' href={item.name}>
+                                <a className="project_title" href={item.name}>
                                   Police Force Tracker
                                 </a>
                               </h5>
                               <p>
                                 <a
-                                  className='project_description'
-                                  href='https://a.humanrightsfirst.dev/'
+                                  className="project_description"
+                                  href="https://a.humanrightsfirst.dev/"
                                 >
                                   {item.description}
                                 </a>
@@ -55,35 +58,35 @@ export default class Portfolio extends Component {
                               </p>
                               <h5>
                                 <a
-                                  className='project_title'
-                                  href='https://github.com/ph5500/nasa-photo-of-the-day/tree/phil-fives'
+                                  className="project_title"
+                                  href="https://github.com/ph5500/nasa-photo-of-the-day/tree/phil-fives"
                                 >
                                   NASA Photo of the Day
                                 </a>
                               </h5>
                               <p>
                                 <a
-                                  className='project_description'
-                                  href='https://github.com/ph5500/nasa-photo-of-the-day/tree/phil-fives'
+                                  className="project_description"
+                                  href="https://github.com/ph5500/nasa-photo-of-the-day/tree/phil-fives"
                                 >
                                   NASA API that fetches the photo of the day
                                 </a>
                               </p>
                               <h5>
                                 <a
-                                  className='project_title'
-                                  href='https://github.com/ph5500/game_of_lifee/tree/Day-4'
+                                  className="project_title"
+                                  href="https://github.com/ph5500/game_of_lifee/tree/Day-4"
                                 >
                                   Conway's Game of Life
                                 </a>
                               </h5>
                               <p>
                                 <a
-                                  className='project_description'
-                                  href='https://github.com/ph5500/game_of_lifee/tree/Day-4'
+                                  className="project_description"
+                                  href="https://github.com/ph5500/game_of_lifee/tree/Day-4"
                                 >
                                   Zero player game thats evolution is determined
-                                  by it's initial state{' '}
+                                  by it's initial state{" "}
                                 </a>
                               </p>
                             </div>
@@ -91,12 +94,12 @@ export default class Portfolio extends Component {
                         </a>
                       </div>
                     </div>
-                  )
+                  );
                 })}
             </div>
           </div>
         </div>
       </section>
-    )
+    );
   }
 }

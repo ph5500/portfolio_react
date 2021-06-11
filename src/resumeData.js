@@ -6,7 +6,7 @@ let resumeData = {
   role: "Full Stack Developer",
   linkedinId: <SocialIcon url="https://www.linkedin.com/in/phil-fives/" />,
   roleDescription:
-    " I thoroughly enjoy the learning process and creating software applications. I have a deep interest in simplicity and decentralization",
+    " I thoroughly enjoy the learning process and helping to build simple and effective software applications. I have a deep interest in simplicity, decentralization, and the creator economy",
   socialLinks: [
     {
       name: "linkedin",
@@ -24,7 +24,7 @@ let resumeData = {
   ],
 
   aboutme:
-    "I am currently a Student at LambdaSchool where I am studying Full Stack Web Development. Before this, I worked on the product team at a Machine Learning startup focused on financial Data. Previously played soccer professionally in Sweden. Love soccer and asymmetric returns.",
+    "I recently completed a Full Stack Web Development course through Lambda School where I worked with other programmers to build frontend and backend applications. Before this, I worked on the product team at a Machine Learning startup focused on financial Data. Previously played soccer professionally in Sweden. Love soccer, reading, and asymmetric returns.",
 
   address: "Denver, Colorado",
 
