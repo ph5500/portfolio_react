@@ -24,7 +24,7 @@ let resumeData = {
   ],
 
   aboutme:
-    "I recently completed a Full Stack Web Development course through Lambda School where I worked with other programmers to build frontend and backend applications. Before this, I worked on the product team at a Machine Learning startup focused on financial Data. Previously played soccer professionally in Sweden. Love soccer, reading, and asymmetric returns.",
+    "I have been an open-source contributor to the Ethereum Foundation and Ethereum.org where I worked on building components and adding content to these websites. I recently completed a Full Stack Web Development course through Lambda School where I worked with other programmers to build frontend and backend applications. Before this, I worked on the product team at a Machine Learning startup focused on financial Data. Previously played soccer professionally in Sweden. Love soccer, reading, and asymmetric returns.",
 
   address: "Denver, Colorado",
 
